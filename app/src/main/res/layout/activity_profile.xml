@@ -20,6 +20,13 @@
             android:layout_height="130dp"
             android:layout_gravity="center"
             android:src="@mipmap/ic_profile_foreground"/>
+        <Button
+            android:id="@+id/btnChoosePhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose photo"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="15dp"/>
         <TextView
             android:id="@+id/txtProfile"
             android:layout_width="wrap_content"
@@ -27,8 +34,8 @@
             android:text="Welcome to Profile"
             android:textSize="20sp"
             android:textColor="#FFFFFF"
-            android:layout_gravity="bottom|center"
-            android:layout_marginBottom="20dp"/>
+            android:layout_gravity="top|center"
+            android:layout_marginTop="30dp"/>
     </FrameLayout>
 
     <TextView
